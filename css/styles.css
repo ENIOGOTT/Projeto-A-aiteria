@@ -1,0 +1,438 @@
+/* Estilo Geral */
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px 0;
+}
+
+p, li {
+    font-size: 15px;
+}
+ 
+/* Navbar */ 
+header, .navbar {
+    background-color: blueviolet;
+}
+
+#nav-container { 
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo { 
+    width: 75px;
+}
+
+.navbar-brand {
+    padding: 0; 
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: black;
+}
+
+#navbar-links a {
+    color: whitesmoke;
+}
+
+#home-menu > span {
+    color: rgb(72, 255, 0);
+}
+
+#about-menu > span {
+    color: rgb(72, 255, 0);
+}
+
+#services-menu > span {
+    color: rgb(72, 255, 0);
+}
+
+#team-menu > span {
+    color: rgb(72, 255, 0);
+}
+
+#contact-menu > span {
+    color: rgb(72, 255, 0);
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+    font-size: 18px;
+}
+
+/* Slider */
+.container-fluid {
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+     height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2 {
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#mainSlider .carousel-caption p {
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: aliceblue;
+}
+
+.main-btn {
+    background-color: blueviolet;
+    color: whitesmoke;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    border: 4px solid transparent;
+    transition: 0.7s;
+}
+
+.main-btn:hover { 
+    text-decoration: none;
+    color: aliceblue;
+    background-color: transparent;
+    border-color: blueviolet;
+}
+
+.carousel-indicators .active {
+    background-color: blueviolet;
+}
+
+/* SOBRE O SITE - parte 1*/ 
+#about-area {
+    background-color: antiquewhite;
+}
+
+.main-title { 
+    color: #333; 
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align: center;
+}
+
+.main-title::after { 
+    content: "";
+    border-top: 2px solid #333;
+    width: 15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%;
+}
+
+.about-title { 
+    font-size: 17px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#about-list { 
+    list-style: none;
+    padding-left: 0;
+}
+
+#about-list li { 
+    line-height: 30px;
+}
+
+#about-list i { 
+    color: blueviolet;
+    margin-right: 15px;
+}
+
+/* Style Serviços */ 
+.service-box {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.service-box i, .service-box h4 {
+    transition: 0.8s;
+}
+
+.service-box i { 
+    font-size: 36px;
+    margin-bottom: 20px; 
+    color: #333;
+}
+
+.service-box h4 { 
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.service-box:hover > i, .service-box:hover > h4 {
+    color: #a400f0;
+}
+
+/* DADOS  */
+.circle-box div {
+    padding: 0 40px;
+  }
+  
+  .progressbar-text {
+    font-weight: bold;
+    font-size: 32px;
+  }
+  
+  #data-area p {
+    color: #FFF;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 20px;
+  }
+
+/* ESTILO CARDS */
+  .card-body { 
+      text-align: center;
+    } 
+
+    .card-body:hover {
+        color: #a400f0;
+        transition: 0.9s;
+    }
+
+/* OUTRO PARALAX  */ 
+#apply-area { 
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row {
+    height: 100%;
+}
+
+#apply-area .apply-box {
+    text-align: center;
+    padding: 70px 50px;
+}
+
+#company-img { 
+    background-image: url('../img/empresa.jpg');
+    background-size: cover;
+    height: 100%;
+}
+
+#pattern-img h5, #pattern-img p { 
+    color: aliceblue;
+}
+
+#pattern-img h5 { 
+    margin-top: 18px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#pattern-img p { 
+    margin-bottom: 20px;
+}
+
+#apply-btn {
+     display: block;
+     height: auto;
+     width: 180px;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 30px;
+}
+
+/* DESIGN PORTFOLIO */ 
+
+.project-box {
+    margin-bottom: 30px;
+}
+
+#filter-btn-box {
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+#portfolio-area .filter-btn {
+    color: #333;
+    border: 1px solid blueviolet;
+    background-color: transparent;
+    text-transform: none;
+    margin: 0 15px;
+    min-width: 100px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active, #portfolio-area .filter-btn:hover {
+    color: #FFF;
+    background-color: blueviolet;
+    border-color: thistle;
+}
+
+/* DESIGN NEWSLETTER */ 
+
+#news-area {
+    text-align: center;
+    background-color: thistle;
+}
+
+#news-area p { 
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+#email-input { 
+    border-radius: 0;
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px;
+    border: 1px solid blueviolet;
+    display: inline;
+    box-sizing: border-box;
+    width: 40%;
+    height: 40px;
+}
+
+#news-btn { 
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid blueviolet;
+    background-color:lawngreen;
+    text-transform: uppercase;
+    color: antiquewhite;
+    box-sizing: border-box;
+    height: 40px;
+    padding: 0 30px;
+    margin-left: -30px;
+    position: absolute;
+    transition: 0.5s;
+
+}
+
+#news-btn:hover { 
+    background-color: #a400f0; 
+    color: white;
+    font-weight: bold;
+} 
+
+/* DESIGN CALL TO ACTION */ 
+
+#call-area {
+    background-color: #c342ff;
+    text-transform: uppercase;
+}
+
+#call-area .container { 
+    padding: 40px 100px;
+}
+
+#call-area .row {
+    display: block;
+    text-align: center;
+}
+
+#call-area p { 
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 20px;
+    width: auto;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+    display: inline;
+    height: 60px;
+    line-height: 60px;
+}
+
+#call-area #call-btn { 
+    background-color: #FFF;
+    color: #a400f0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 30px;
+    width: auto;
+    letter-spacing: 2px;
+}
+
+/* FOOTER e RODAPÉ  */ 
+#contact-area { 
+    text-align: center;
+}
+
+.contact-box { 
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid thistle;
+}
+
+.contact-box i { 
+    color: #a400f0;
+    border: solid 1px #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.contact-box p { 
+    font-size: 16px;
+}
+
+.contact-title { 
+    font-weight: bold;
+    color: #a400f0;
+}
+
+#msg-box p {
+    font-size: 22px;
+}
+
+#contact-form input[type="text"], #contact-form input[type="email"], #contact-form textarea {
+    margin-bottom: 15px;
+    border-radius: 0;
+}
+
+#contact-form .main-btn { 
+    width: 120px;
+    height: 50px;
+}
+
+#contact-form .main-btn:hover { 
+    color: #c342ff;
+}
+
+#copy-area { 
+    background-color: thistle;
+}
+
+#copy-area .container { 
+    padding: 10px 0;
+    text-align: center;
+}
+
+#copy-area .container p { 
+    margin-bottom: 0;
+}
+
+#copy-area .container a { 
+    font-weight: bold;
+    color: #444;
+}
+
+#copy-area .container a:hover { 
+    text-decoration: none;
+    color: tan;
+}

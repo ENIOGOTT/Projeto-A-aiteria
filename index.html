@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Açaiteria </title>
+  <!-- Fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+  integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Bootstrap Script-->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+  integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+  integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+  crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Codigo de icones -->
+  <script src="https://kit.fontawesome.com/30241783ac.js" crossorigin="anonymous"></script>
+  <!-- ProgressBar -->
+  <script src="js/progressbar.min.js"></script>
+  <!-- Paralax -->
+  <script src="https://cdn.jsdelivr.net/parallax.js/1.4.2/parallax.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container" id="nav-container">
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a href="index.html" class="navbar-brand"><img id="logo" src="img/hdcagency_logo.svg" alt="Logo site"> TITULO SITE
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+      aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" id="home-menu"> <span>H</span>OME</a>
+        <a class="nav-item nav-link" id="about-menu"> <span>S</span>OBRE </a>
+        <a class="nav-item nav-link" id="services-menu"> <span>S</span>ERVIÇOS</a>
+        <a class="nav-item nav-link" id="team-menu"> <span>T</span>IME </a>
+        <a class="nav-item nav-link" id="contact-menu"> <span>C</span>ONTATO </a>
+      </div>
+    </div>
+  </nav>
+  </div>
+</header>
+<main>
+  <div class="container-fluid">
+    <div id="mainSlider" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#mainSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#mainSlider" data-slide-to="1"></li>
+        <li data-target="#mainSlider" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner1.png" class="d-block w-100" alt="BANNER 1">
+          <div class="carousel-caption d-md-block">
+            <h2> TITULO BANNER 1 </h2>
+            <p> CONTEUDO BANNER 1</p>
+            <a href="#" class="main-btn">LINK BANNER 1</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner2.png" class="d-block w-100" alt="BANNER 2">
+          <div class="carousel-caption d-md-block">
+            <h2>TITULO BANNER 2</h2>
+            <p>CONTEUDO BANNER 2 </p>
+            <a href="#" class="main-btn">LINK BANNER 2</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner3.png" class="d-block w-100" alt="Manutenção em software">
+          <div class="carousel-caption d-md-block">
+            <h2>TITULO BANNER 3</h2>
+            <p> CONTEUDO BANNER 3</p>
+            <a href="#" class="main-btn">LINK BANNER 3 </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+  <!-- sobre a empresa -->
+  <div id="about-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-title"> TITULO SOBRE O SITE 1 - PARTE 1</h3>
+        </div>
+        <div class="col-md-6">
+          <img src="img/agencia.jpg" class="img-fluid" alt="LEGENDA IMAGEM">
+          
+        </div>
+        <div class="col-md-6">
+          <h3> Titulo do comentario ao lado da foto</h3>
+          <p> Paragrafo e comentarios do texto abaixo do titulo.</p>
+          <ul id="about-list">
+            <li><i class="fas fa-check"></i> item 1 da lista nao-ordenada</li>
+            <li><i class="fas fa-check"></i> item 2 da lista nao-ordenada</li>
+            <li><i class="fas fa-check"></i> item 3 da lista nao-ordenada</li>
+            <li><i class="fas fa-check"></i> item 4 da lista nao-ordenada</li>
+            <li><i class="fas fa-check"></i> item 5 da lista nao-ordenada</li>
+            <li><i class="fas fa-check"></i> item 6 da lista nao-ordenada</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- serviços da empresa -->
+  <div id="services-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-title"> TITULO SOBRE OS ICONES - PARTE 2</h3>
+        </div>
+        <div class="col-md-4 service-box">
+          <i class="fas fa-mobile-alt"></i>
+          <h4> TITULO DO ICONE TELEFONE </h4>
+          <p> TEXTO DO ICONE </p>
+        </div>
+        
+        <div class="col-md-4 service-box">
+          <i class="fas fa-shopping-cart"></i>
+          <h4> TITULO DO ICONE fa-shopping-cart </h4>
+          <p> TEXTO DO ICONE Carrinho de compras</p>
+        </div>
+        
+        <div class="col-md-4 service-box">
+          <i class="fas fa-paint-brush"></i>
+          <h4> TITULO DO ICONE paint </h4>
+          <p> TEXTO DO ICONE Desenho</p>
+        </div>
+        
+        <div class="col-md-4 service-box">
+          <i class="fab fa-google"></i>
+          <h4> TITULO DO ICONE google </h4>
+          <p> TEXTO DO ICONE Google </p>
+        </div>
+        
+        <div class="col-md-4 service-box">
+          <i class="fas fa-hands-helping"></i>
+          <h4> TITULO DO ICONE hands-helping </h4>
+          <p> TEXTO DO ICONE suporte </p>
+        </div>
+        
+        <div class="col-md-4 service-box">
+          <i class="fas fa-server"></i>
+          <h4> TITULO DO ICONE server</h4>
+          <p> TEXTO DO ICONE Servidor </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Dados do site -->
+  <div id="data-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-xs-6 circle-box">
+          <div id="circleA"></div>
+          <p>TEXTO CIRCULO 1 </p>
+        </div>
+        <div class="col-md-3 col-xs-6 circle-box">
+          <div id="circleB"></div>
+          <p>TEXTO CIRCULO 2 </p>
+        </div>
+        <div class="col-md-3 col-xs-6 circle-box">
+          <div id="circleC"></div>
+          <p>TEXTO CIRCULO 3 </p>
+        </div>  
+        <div class="col-md-3 col-xs-6 circle-box">
+          <div id="circleD"></div>
+          <p>TEXTO CIRCULO 4 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Cards dos personagens -->
+  <div id="team-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="main-title">
+            NOSSOS CARDS 
+          </h3>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img/profile1.jpg" alt="Imagems de pessoas" class="card-img-top">
+            <div class="card-body"> 
+              <h5 class="card-title">
+                HOMER SIMPSON 
+              </h5>
+              <p class="card-text">
+                Personagem Ficcticio 1
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img/profile2.jpg" alt="Imagems de pessoas" class="card-img-top">
+            <div class="card-body"> 
+              <h5 class="card-title">
+                MARGE SIMPSON 
+              </h5>
+              <p class="card-text">
+                Personagem Ficcticio 2
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img/profile3.jpg" alt="Imagems de pessoas" class="card-img-top">
+            <div class="card-body"> 
+              <h5 class="card-title">
+                BARTH SIMPSON 
+              </h5>
+              <p class="card-text">
+                Personagem Ficcticio 3
+              </p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-3">
+          <div class="card">
+            <img src="img/profile4.jpg" alt="Imagems de pessoas" class="card-img-top">
+            
+            <div class="card-body"> 
+              <h5 class="card-title">
+                LISA SIMPSON 
+              </h5>
+              <p class="card-text">
+                Personagem Ficcticio 4
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- OUTRO PARALAX COM LARGURA TOTAL   -->
+  <div id="apply-area">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6 apply-box" id="company-img">
+        </div>
+        <div class="col-md-6 apply-box" id="pattern-img">
+          <h5>Gosta desse efeito? </h5>
+          <p>Este efeito se chama Paralax, parece que tem uma transparencia e da sensação de profundidade </p>
+          <p>Dificil de trabalhar de primeira , mas depois se torna pior...  </p>
+          
+          <a href="#" class="main-btn" id="apply-btn"> Conheça o Paralax</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- portfolio    -->
+  <div id="portfolio-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h4 class="main-title"> Conheça os Porjetos desenvolvidos </h4>
+        </div>
+        <div class="col-md-12" id="filter-btn-box">
+          <button class="main-btn filter-btn active" id="all-btn"> TODOS </button>
+          <button class="main-btn filter-btn" id="dev-btn"> DESENVOLVIMENTO </button>
+          <button class="main-btn filter-btn" id="dsg-btn"> DESIGN </button>
+          <button class="main-btn filter-btn" id="seo-btn"> SEO </button>
+        </div>
+        <div class="col-md-4 project-box dev">
+          <img src="img/proj1.jpg" class="img-fluid" alt="PROJETO 1">
+        </div>
+        <div class="col-md-4 project-box dsg">
+          <img src="img/proj2.jpg" class="img-fluid" alt="PROJETO 2">
+        </div>
+        <div class="col-md-4 project-box seo">
+          <img src="img/proj3.jpg" class="img-fluid" alt="PROJETO 3">
+        </div>
+        <div class="col-md-4 project-box dev">
+          <img src="img/proj4.jpg" class="img-fluid" alt="PROJETO 4">
+        </div>
+        <div class="col-md-4 project-box dsg">
+          <img src="img/proj5.jpg" class="img-fluid" alt="PROJETO 5">
+        </div>
+        <div class="col-md-4 project-box seo">
+          <img src="img/proj6.jpg" class="img-fluid" alt="PROJETO 6">
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  <!-- NewsLetter     -->
+  <div id="news-area">
+    <div class="container">
+      <div class="col-md-12">
+        <h5 class="main-title"> Fique por dentro das novidades com a nossa NewsLetter. </h5>
+      </div>
+      <p> Assine nossa pagina de emails e receba conteudos diariamente sobre os assuntos aqui abordados no nosso site. </p>
+      <form action="">
+        <input type="email" class="form-control" id="email-input" name="email" placeholder="Seu e-mail.">
+        <input type="submit" id="news-btn" value="Inscrever">
+      </form>
+    </div>
+  </div>
+  <!--  CALL TO ACTION  -->
+  <div id="call-area">
+    <div class="container">
+      <div class="row">
+        <P>Deseja escrever qualquer bosta aqui para a gente? </P>
+        <button class="main-btn" id="call-btn"> Escreva </button>
+      </div>
+    </div>
+  </div>
+</main>
+<!-- RODAPÉ -->
+<footer>
+  <div id="contact-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h5 class="main-title"> Fique por dentro das novidades com a nossa NewsLetter. </h5>
+        </div>
+        <div class="col-md-4 contact-box">
+          <i class="fas fa-phone"></i>  <i class="fa-solid fa-box-archive"></i>
+          <p><span class="contact-title"> Ligue Para: </span>  (55) 99999-6666</p>
+          <p><span class="contact-title"> Horários: </span> 8:00 | 18:00 </p>
+        </div>
+        <div class="col-md-4 contact-box">
+          <i class="fas fa-envelope"></i>
+          <p><span class="contact-title"> Envie um email para: </span>  contato@acaiteria.com.br </p>
+        </div>
+        <div class="col-md-4 contact-box">
+          <i class="fas fa-map-marker-alt"></i>
+          <p><span class="contact-title"> Venha tomar um açaí: </span> Rua da Graça, 45 - Santa Maria - RS</p>
+        </div>
+        <div class="col-md-6" id="msg-box">
+          <p>Ou nos deixe uma mensagem: </p>
+        </div>
+        <div class="col-md-6" id="contact-form">
+          <form action="">
+            <input type="email" class="form-control" placeholder="Email" name="email">
+            <input type="text" class="form-control" placeholder="Assunto" name="subject">
+            <textarea class="form-control" rows="5" placeholder="Sua mensagem..." name="message"></textarea>
+            <input type="submit" class="main-btn" value="Enviar">
+          </form>
+        </div>
+      </div>
+    </div> 
+  </div>
+  <div id="copy-area">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <p>Desenvolvido por <a href="#" target="_blank">EG Soluções &copy;</a> 2022 </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>
